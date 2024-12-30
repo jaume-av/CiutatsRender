@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ca" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Monuments de la Ciutat</title>
+    <link rel="stylesheet" href="css/ciutat.css">
+</head>
+<body>
+
+<!-- Capçalera -->
+<header>
+    <h1 th:text="${titol}" style="font-size: 60px;"></h1>
+    <h2 th:text="${descripcio}" style="color: #4d654f; text-align: center;"></h2>
+</header>
+
+<!-- Verificar que la variable ciutats no sea nula antes de intentar acceder a sus propiedades -->
+<th:block th:if="${ciutats != null}">
+    <!-- Lista de monuments -->
+    <div class="monument-list">
+        <!-- Utilizar th:each para iterar sobre la lista de ciudades -->
+        <th:block th:each="ciutat : ${ciutats}">
+            <!-- Detalles de la ciudad -->
+            <div class="monument">
+                <!-- Detalles de la ciudad -->
+                <div class="detalls-monument">
+                    <h2>
+                        <a th:href="@{${ciutat.nom} + '.html'}" th:text="${ciutat.nom}"style="color: #388e3c; text-decoration: none;"></a>
+
+                    </h2>
+                    <p th:text="${ciutat.descripcio}"></p>
+
+                </div>
+
+                <!-- Imagen de la ciudad -->
+                <img th:src="@{${ciutat.imatge}}" alt="Imatge de la Ciutat"/>
+            </div>
+        </th:block>
+    </div>
+</th:block>
+
+</body>
+</html>

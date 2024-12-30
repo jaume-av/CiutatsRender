@@ -1,0 +1,44 @@
+<RssFeed>
+  <titol> RSS de Ciutats i Monuments</titol>
+  <enllaç>src/main/resources/fitxersWeb/index.html</enllaç>
+  <descripcio>Feed que mostra Ciutats i Monuments</descripcio>
+  <dataModificacio>Mon, 30 Dec 2024 13:06:25 CET</dataModificacio>
+  <items>
+    <items>
+      <titol>València</titol>
+      <enllaç>../fitxersWeb/València.html</enllaç>
+      <descripcio>València és coneguda per la seva arquitectura medieval i la Ciutat de les Arts i les Ciències.</descripcio>
+      <dataModificacio>Mon, 30 Dec 2024 13:06:25 CET</dataModificacio>
+    </items>
+    <items>
+      <titol>Granada</titol>
+      <enllaç>../fitxersWeb/Granada.html</enllaç>
+      <descripcio>Granada destaca pel seu patrimoni històric, incloent l'Alhambra i el Generalife.</descripcio>
+      <dataModificacio>Mon, 30 Dec 2024 13:06:25 CET</dataModificacio>
+    </items>
+    <items>
+      <titol>Barcelona</titol>
+      <enllaç>../fitxersWeb/Barcelona.html</enllaç>
+      <descripcio>Barcelona és famosa per la Sagrada Família i l'arquitectura modernista de Gaudí.</descripcio>
+      <dataModificacio>Mon, 30 Dec 2024 13:06:25 CET</dataModificacio>
+    </items>
+    <items>
+      <titol>Madrid</titol>
+      <enllaç>../fitxersWeb/Madrid.html</enllaç>
+      <descripcio>Madrid, la capital d'Espanya, té importants museus com el Museo del Prado i el Reina Sofía.</descripcio>
+      <dataModificacio>Mon, 30 Dec 2024 13:06:25 CET</dataModificacio>
+    </items>
+    <items>
+      <titol>Sevilla</titol>
+      <enllaç>../fitxersWeb/Sevilla.html</enllaç>
+      <descripcio>Sevilla és coneguda per la seva catedral gòtica i l'Alcázar, un antic palau.</descripcio>
+      <dataModificacio>Mon, 30 Dec 2024 13:06:25 CET</dataModificacio>
+    </items>
+    <items>
+      <titol>La Vall d'Uixó</titol>
+      <enllaç>../fitxersWeb/La Vall d'Uixó.html</enllaç>
+      <descripcio>La vall d'Uixó es coneguda per ser la terra natal de Jaume.</descripcio>
+      <dataModificacio>Mon, 30 Dec 2024 13:06:25 CET</dataModificacio>
+    </items>
+  </items>
+</RssFeed>

@@ -1,0 +1,261 @@
+{
+  "ciutats": [
+    {
+      "id": 1,
+      "nom": "València",
+      "poblacio": 794288,
+      "descripcio": "València és coneguda per la seva arquitectura medieval i la Ciutat de les Arts i les Ciències.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTY_NZVvzg3BY7q9vusvbPajVSGiLN_5HADQGqjJkbyacDXh6u3kfHxaPFHINsDjPRLAM&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "nom": "Granada",
+      "poblacio": 232208,
+      "descripcio": "Granada destaca pel seu patrimoni històric, incloent l'Alhambra i el Generalife.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcKPatHEzLw25-FQ6l4wU0uV9PZpZr-hNlhg&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "nom": "Barcelona",
+      "poblacio": 1620343,
+      "descripcio": "Barcelona és famosa per la Sagrada Família i l'arquitectura modernista de Gaudí.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYeakgyFIy8nfEbmnVy4L6TvA9k_dt_MzeyBOn-EByaWhdV3YMS3Mmu5A6zKZn1i7t2Z0&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "nom": "Madrid",
+      "poblacio": 3348536,
+      "descripcio": "Madrid, la capital d'Espanya, té importants museus com el Museo del Prado i el Reina Sofía.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtt3WSYujYn7-f3ekKjw-iczy0wMwFRQBNAz13Wx35yj-1wOsxI8piKfZArJydyejMmbI&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "nom": "Sevilla",
+      "poblacio": 688592,
+      "descripcio": "Sevilla és coneguda per la seva catedral gòtica i l'Alcázar, un antic palau.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXU-AhJmiUnlf0rqgux0r2RjWg0tSUFjO2Hh7fFFPQxJdFU9FSUf_v8cTE9lC7vmLLI0&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "nom": "La Vall d'Uixó",
+      "poblacio": 31400,
+      "descripcio": "La vall d'Uixó es coneguda per ser la terra natal de Jaume.",
+      "imatge": "https://i.pinimg.com/736x/8c/86/bd/8c86bdc92302f27d83628e14d826fb8c.jpg"
+    }
+  ],
+  "monuments": [
+    {
+      "id": 1,
+      "nom": "Ciutat de les Arts i les Ciències",
+      "historia_breu": "Dissenyada per Santiago Calatrava i Félix Candela, és un complex arquitectònic, cultural i d'oci.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9lmCcL9O9Eb4vh0GpIzh5ansQCDrhmom5Ww&usqp=CAU",
+      "ciutat_id": 1
+    },
+    {
+      "id": 2,
+      "nom": "Catedral de Santa Maria",
+      "historia_breu": "Consagrada en 1238, la Catedral és seu de l'Arquebisbat de València i està dedicada a Jaume I el Conqueridor.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYosAtyIRQ6SfCMDKpt56UifBgUnJwUduYeA&usqp=CAU",
+      "ciutat_id": 1
+    },
+    {
+      "id": 3,
+      "nom": "La Llotja de la Seda",
+      "historia_breu": "Patrimoni de la Humanitat, exemple de l'arquitectura gòtica civil valenciana.",
+      "imatge": "https://whc.unesco.org/uploads/thumbs/site_0782_0021-750-750-20180122100444.jpg",
+      "ciutat_id": 1
+    },
+    {
+      "id": 4,
+      "nom": "Bioparc Valencia",
+      "historia_breu": "Zoo immersiu amb hàbitats replicats per a fomentar la conservació.",
+      "imatge": "https://as1.ftcdn.net/v2/jpg/02/98/17/74/1000_F_298177409_3NPTzjArw3w9hyFs6cpmV2DZKcpGgZMa.jpg",
+      "ciutat_id": 1
+    },
+    {
+      "id": 5,
+      "nom": "Torres de Serrans",
+      "historia_breu": "Antigues torres defensives de la muralla medieval de València.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb4qz_u7OF2D6wEjKKWttPbNeOy4C9tUf5tg&usqp=CAU",
+      "ciutat_id": 1
+    },
+    {
+      "id": 6,
+      "nom": "Alhambra",
+      "historia_breu": "La Alhambra és una impressionant ciutadella i palau que data del segle XIII.",
+      "imatge": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2021/04/15/6078308ef0486.r_d.1494-516-4517.jpeg",
+      "ciutat_id": 2
+    },
+    {
+      "id": 7,
+      "nom": "Generalife",
+      "historia_breu": "Jardins històrics amb fonts, camins i terrasses, part de l'Alhambra.",
+      "imatge": "https://www.alhambra.org/img/generalife-banner.jpg",
+      "ciutat_id": 2
+    },
+    {
+      "id": 8,
+      "nom": "Catedral de Granada",
+      "historia_breu": "Catedral renaixentista amb capelles, tombes i vistes panoràmiques.",
+      "imatge": "https://heygranada.com/wp-content/uploads/2021/07/visitar-la-Catedral-de-Granada.jpeg",
+      "ciutat_id": 2
+    },
+    {
+      "id": 9,
+      "nom": "El Bañuelo",
+      "historia_breu": "Bany àrab ben conservat que data del segle XI.",
+      "imatge": "https://www.alhambra.info/blog/wp-content/uploads/2016/12/BA%C3%91UELO-PANORAMICA.jpg",
+      "ciutat_id": 2
+    },
+    {
+      "id": 10,
+      "nom": "Palacio de Carlos V",
+      "historia_breu": "Palau renaixentista construït dins del recinte de l'Alhambra.",
+      "imatge": "https://www.entradaalhambra.es/templateEditor/kcfinder/upload/images/palacio%20de%20carlos%20v/Patio%20interior%20del%20palacio%20de%20Carlos%20V.jpg",
+      "ciutat_id": 2
+    },
+    {
+      "id": 11,
+      "nom": "Sagrada Família",
+      "historia_breu": "Dissenyada per Antoni Gaudí, és una basílica catòlica inacabada que destaca per la seva arquitectura única.",
+      "imatge": "https://imagenes.20minutos.es/files/image_990_556/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg",
+      "ciutat_id": 3
+    },
+    {
+      "id": 12,
+      "nom": "Parc Güell",
+      "historia_breu": "Parc públic amb elements arquitectònics dissenyats per Gaudí.",
+      "imatge": "https://www.barcelo.com/guia-turismo/wp-content/uploads/park-guell-1.jpg",
+      "ciutat_id": 3
+    },
+    {
+      "id": 13,
+      "nom": "La Rambla",
+      "historia_breu": "Avinguda famosa amb botigues, teatres i restaurants al cor de Barcelona.",
+      "imatge": "https://www.laramblabarcelona.com/wp-content/uploads/2018/02/rambla-instagram-1368x800.jpg",
+      "ciutat_id": 3
+    },
+    {
+      "id": 14,
+      "nom": "Casa Batlló",
+      "historia_breu": "La Casa Batlló, dissenyada per Antoni Gaudí al 1904, és una icona del modernisme català, reconeguda per la seva façana única i els detalls arquitectònics innovadors.",
+      "imatge": "https://thumbs.dreamstime.com/z/fachada-de-la-casa-batllo-por-gaudi-en-barcelona-50448882.jpg?w=576",
+      "ciutat_id": 3
+    },
+    {
+      "id": 15,
+      "nom": "Catedral de Barcelona",
+      "historia_breu": "Coneguda com Catedral de la Santa Creu i Santa Eulalia. S XIII. Situada al barri gòtic de Barcelona",
+      "imatge": "https://aerobusbarcelona.es/wp-content/uploads/2022/07/AdobeStock_143578352-2048x1318.jpeg.webp",
+      "ciutat_id": 3
+    },
+    {
+      "id": 16,
+      "nom": "Museo del Prado",
+      "historia_breu": "Un dels museus d'art més importants del món, amb una gran col·lecció de pintures europees.",
+      "imatge": "https://content3.cdnprado.net/imagenes/Documentos/imgsem/92/92a1/92a13834-fb16-179a-f71f-968524312368/29bfa12c-a5f0-f152-5af2-4449a919387d.jpg",
+      "ciutat_id": 4
+    },
+    {
+      "id": 17,
+      "nom": "Palau Reial",
+      "historia_breu": "Construït al segle XVIII, és la residència oficial de la monarquia espanyola, un edifici majestuós i carregat d’història, reconegut per la seva arquitectura imponent, els seus luxosos salons i el ric patrimoni artístic que conserva.",
+      "imatge": "https://www.patrimonionacional.es/sites/default/files/styles/full/public/2020-05/3-palacio_real_cabecera_fachada_principal_.jpg?itok=YATZaJZ_",
+      "ciutat_id": 4
+    },
+    {
+      "id": 18,
+      "nom": "Parc del Retiro",
+      "historia_breu": "Ampli parc amb estanys, jardins i monuments com l'Estanque del Retiro.",
+      "imatge": "https://madridando.com/wp-content/uploads/2018/07/el-retiro.jpeg",
+      "ciutat_id": 4
+    },
+    {
+      "id": 19,
+      "nom": "Puerta del Sol",
+      "historia_breu": "Plaça central de Madrid, coneguda pel rellotge de l'edifici de la Casa de Correos.",
+      "imatge": "https://media.istockphoto.com/id/686700242/es/foto/la-puerta-del-sol-desde-arriba.jpg?s=2048x2048&w=is&k=20&c=tx44wDYkfzkDAqH6vpJBGnGMnX0y1NqqCG2f9r5GH3I=",
+      "ciutat_id": 4
+    },
+    {
+      "id": 20,
+      "nom": "Gran Via",
+      "historia_breu": "Avinguda principal de Madrid amb teatres i botigues.",
+      "imatge": "https://i0.wp.com/pongamosquehablodemadrid.com/wp-content/uploads/2016/10/gran-via-de-madrid-vista-del-primer-tramo-desde-la-plaza-de-espana-hasta-la-plaza-del-callao.jpg?w=800&ssl=1",
+      "ciutat_id": 4
+    },
+    {
+      "id": 21,
+      "nom": "Catedral de Sevilla",
+      "historia_breu": "Una de les catedrals gòtiques més grans del món, amb la Giralda com a campanar.",
+      "imatge": "https://www.lacatedraldesevilla.org/img/catedral-sevilla-1.jpg",
+      "ciutat_id": 5
+    },
+    {
+      "id": 22,
+      "nom": "Alcázar de Sevilla",
+      "historia_breu": "Palau fortificat amb jardins, construït durant diversos períodes.",
+      "imatge": "https://imagenes.elpais.com/resizer/v2/NT5ZPGJUVZEZ45MHAQLTGDRD24.jpg?auth=001314c4e8834e78296d19642738ad844af8e47fa0652cde2a142e86e0c82596&width=1200",
+      "ciutat_id": 5
+    },
+    {
+      "id": 23,
+      "nom": "Torre del Oro",
+      "historia_breu": "en 1220 dC pels almohades. Formava part d'una muralla fortificada que envoltava tota la ciutat.",
+      "imatge": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/11/10/16996084175801.jpg",
+      "ciutat_id": 5
+    },
+    {
+      "id": 24,
+      "nom": "Plaza de España",
+      "historia_breu": "Plaça amb canal, ponts i edificis amb ceràmica representant diferents regions d'Espanya.",
+      "imatge": "https://sevillaguias.es/wp-content/uploads/2020/02/sevilla-guias-espana-1024x576.jpg",
+      "ciutat_id": 5
+    },
+    {
+      "id": 25,
+      "nom": "La Giralda",
+      "historia_breu": "La Giralda, construïda al segle XII pels almohades com a minaret de la mesquita, és avui un emblemàtic campanar de la catedral de Sevilla i un símbol històric de la ciutat.",
+      "imatge": "https://sevillecityguide.com/images/giralda-sevilla.jpg",
+      "ciutat_id": 5
+    },
+
+    {
+      "id": 26,
+      "nom": "Esglesia de l'Assumpció",
+      "historia_breu": "Situada en el Barri de Baix, mes coneguda com la Catedral de La Vall.",
+      "imatge": "https://turismolavallduixo.com/wp-content/uploads/2022/02/6-scaled.jpg",
+      "ciutat_id": 6
+    },
+    {
+      "id": 27,
+      "nom": "Coves de Sant Josep",
+      "historia_breu": "El riu subterrani més llarg d'Europa.",
+      "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGuqO_C8fGlphuqgkbcu2Z0twz4W6WdiTGx3A3DujTXVzd5gOQ8nBEsbIyfhT8dk8OnfE&usqp=CAU",
+      "ciutat_id": 6
+    },
+
+    {
+      "id": 28,
+      "nom": "L'Aqüeducte ",
+      "historia_breu": "Aqüeducte d'origen Romà remodelat pels Àrabs, abastia d'aigüa al poble des de les coves de Sant Josep.",
+      "imatge": "https://lh3.googleusercontent.com/p/AF1QipMneaz6gVrhpryxvV05WIY046rplk_7GwNgxIRn=s1360-w1360-h1020",
+      "ciutat_id": 6
+    },
+    {
+      "id": 29,
+      "nom": "Poblat iber de Sant Josep ",
+      "historia_breu": "Recinte amurallat d'origen Íber habitat des de l'edat de ferro (segle VII a.c.) fins aproximadament el segle V" ,
+      "imatge": "https://www.castellonarqueologico.es/archivos/142/web2017-08-26a01sanjosep.jpg",
+      "ciutat_id": 6
+    },
+    {
+      "id": 30,
+      "nom": "Esglesieta de l'Àngel ",
+      "historia_breu": "Xicoteta parroquia situada al Barri de Dalt" ,
+      "imatge": "https://multimedia.comunitatvalenciana.com/172C36808BFF4DF2940F24E420121EFA/img/2B42CE5CF25D4320A87801F1919E5DAD/iglesia_santo_angel_custodio.jpg?responsive",
+      "ciutat_id": 6
+    }
+
+  ]
+}

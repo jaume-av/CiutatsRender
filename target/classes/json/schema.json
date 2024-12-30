@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ciutats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "nom": { "type": "string" },
+          "poblacio": { "type": "integer" },
+          "descripcio": { "type": "string" },
+          "imatge": { "type": "string" }
+        },
+        "required": ["id", "nom", "poblacio", "descripcio", "imatge"],
+        "additionalProperties": false
+      }
+    },
+    "monuments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "nom": { "type": "string" },
+          "historia_breu": { "type": "string" },
+          "imatge": { "type": "string" },
+          "ciutat_id": { "type": "integer" }
+        },
+        "required": ["id", "nom", "historia_breu", "imatge", "ciutat_id"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["ciutats", "monuments"],
+  "additionalProperties": false
+}

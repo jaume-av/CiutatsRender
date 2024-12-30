@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ca" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Monuments de la Ciutat</title>
+  <link rel="stylesheet" href="css/monument.css">
+</head>
+<body>
+
+<!-- Capçalera -->
+<header>
+  <h1 th:text="${ciutat.nom}" style="font-size: 40px;"></h1>
+</header>
+
+<!-- Llista de monuments -->
+<th:block th:each="monument : ${monuments}">
+  <div class="monument">
+    <!-- Detalls del monument -->
+    <div class="detalls-monument">
+      <h2 style="color: #388e3c;" th:text="${monument.nom}"></h2>
+      <p th:text="${monument.historia_breu}"></p>
+    </div>
+
+    <!-- Imatge del monument -->
+    <img th:src="@{${monument.imatge}}" alt="Imatge del Monument"/>
+  </div>
+</th:block>
+
+
+
+<!-- Botón para volver a la página index.html -->
+<button class="volver-btn" onclick="window.location.href='index.html'"> Torna a Ciutats</button>
+
+</body>
+</html>
